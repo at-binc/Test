@@ -27,7 +27,7 @@ public abstract class BaseFragment extends Fragment {
      * @param isBackStack true or false
      */
     protected void replaceFragment(Fragment fragment, boolean isBackStack) {
-           ((BaseContainerFragment) getParentFragment()).replaceFragment(fragment, isBackStack);
+              ((BaseContainerFragment) getParentFragment()).replaceFragment(fragment, isBackStack);
     }
 
     /**
